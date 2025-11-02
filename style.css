@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&family=Shadows+Into+Light&display=swap');
+body{
+    background-image: url(images/background\ \(1\).jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+h5{
+    font-weight: bold;
+}
+p{
+    font-size: 20px;
+}
+.footer{
+    background: rgb(0, 0, 0); 
+    color: white;
+    width: fit-content;
+    margin: auto;
+    margin-bottom: 10px;
+    padding: 20px;
+    border: 2px solid white; /* Chalk-like border */
+    text-align: center;
+    font-family: 'Patrick Hand', cursive; /* Handwritten font */
+}
+a{
+    color: white;
+}
+a:hover{
+    color:#f39c12
+}
+.tables {
+    background: rgba(0, 0, 0, 0.7); /* Semi-transparent black */
+    color: white;
+    width: fit-content;
+    margin: auto;
+    padding: 20px;
+    border: 2px solid white; /* Chalk-like border */
+    text-align: center;
+    font-family: 'Patrick Hand';
+    transition: background 0.3s ease-in-out, transform 0.2s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+.tables:hover {
+    transform: scale(1.05);
+    background: rgba(0, 0, 0, 0.9); /* Darker on hover */
+}
+.btn {
+    background: none;
+    color: white;
+    border: 2px solid white;
+    padding: 10px 15px;
+    font-size: 16px;
+    cursor: pointer;
+    font-family: 'Patrick Hand';
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: white;
+    color: black;
+}
+.btn-primary.disabled {
+    background: none;
+    border: 2px solid white;
+    opacity: 0.5; /* Makes it look faded */
+    cursor: not-allowed; /* Shows the 'not allowed' cursor */
+    pointer-events: none; /* Prevents clicks */
+}
+img{
+    border: 2px solid rgb(255, 255, 255);
+    box-shadow: 0px 0px 8px rgba(255, 255, 255, 0.6);
+}
+/* Apply custom background color and other styles to the navbar */
+.navbar {
+    background-color: rgba(0, 0, 0, 1) !important; /* Semi-transparent black */
+    font-family: 'Patrick Hand', cursive; /* Handwritten font */
+}
+
+.navbar .navbar-brand, .navbar-nav .nav-link {
+    color: white !important; /* Change text color to white */
+}
+
+.navbar-nav .nav-link:hover {
+    color: #f39c12 !important; /* Change link color to a warm gold on hover */
+    background-color: rgba(0, 0, 0, 0.2) !important; /* Slight background change on hover */
+}
+
+.navbar-toggler {
+    border-color: rgba(255, 255, 255, 0.5); /* Make the navbar toggler button white */
+}
+
+.navbar-toggler-icon {
+    background-color: white !important; /* Make the toggle icon white */
+}
+.flatpickr-calendar {
+    font-family: 'Patrick Hand';
+    background: rgba(0, 0, 0) !important;
+    color: white !important;
+    border: 1px solid white !important;
+    border-radius: 0px !important; /* Keep it sharp */
+}
+.flatpickr-day, 
+.flatpickr-month, 
+.flatpickr-weekday, 
+.flatpickr-time {
+    background: black !important;
+    color: white !important;
+}
+
+.flatpickr-day.selected, 
+.flatpickr-day.today {
+    background: white !important;
+    color: black !important; /* Change text color for contrast */
+}
+.flatpickr-time input, 
+.flatpickr-time .flatpickr-time-separator, 
+.flatpickr-time .numInput {
+    color: white !important;
+    background: black !important;
+    border: none !important;
+}
+.flatpickr-time .flatpickr-am-pm {
+    color: white !important;
+    background: black !important;
+    border: none !important;
+}
+.flatpickr-prev-month svg, 
+.flatpickr-next-month svg {
+    fill: white !important;
+}
+.flatpickr-day.flatpickr-disabled, 
+.flatpickr-day.flatpickr-disabled:hover {
+    color: grey !important;
+    opacity: 1 !important; /* Ensures it's fully visible */
+}
+.flatpickr-monthDropdown-months{
+    background-color: black !important;
+}
